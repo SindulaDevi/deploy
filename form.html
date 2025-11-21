@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+    <table border="2">
+        <caption>Students Data</caption>
+        <tr>
+            <th>Name</th>
+            <th>State</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>Mounika</td>
+            <td>Andhra</td>
+            <td>8th class</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>TamilNadu</td>
+            <td>9th class</td>
+        </tr>
+        <tr>
+            <td>Farook</td>
+            <td>Kerala</td>
+            <td>8th class</td>
+        </tr>
+        <tr>
+            <td colspan="2">This is the table content</td>
+            <td rowspan="2">This is the table content</td>
+        </tr>
+    </table>  <br>
+    <br>
+
+    <form action="/submit.php" method="post">
+        Username:<input type="text"><br>
+        Email:<input type="email" placeholder="email"><br>
+        Password:<input type="password"><br>
+        <input type="file"><br>
+        <!--input type="submit"-->
+        <button type="submit">Submit</button><br>
+
+        male:<input type="radio" name="gender">
+        female:<input type="radio" name="gender">
+        other:<input type="radio" name="gender">
+        <input type="range"><br>
+        <label for="c">C</label>
+        <input type="checkbox" name="lang" id="c"><br>
+    </form>
+</body>
+    
+</html>

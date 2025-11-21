@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #111;
+}
+/*button:hover{
+    color: brown;
+    background-color: green;
+}   
+input:focus{
+    color: red;
+} 
+li::before{
+    content: ">";
+}
+button{
+    background-color: red;
+    color: black;
+    transition: all ease-in-out .8s;
+}*/
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: peachpuff;
+    margin: 80px;
+    transform: skew(10deg,20deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    animation:wow 10s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+
+}
+ @keyframes wow {
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: green;
+    }
+    
+}
+/*.box:hover{
+    transform: scale(0.8);
+}*/
